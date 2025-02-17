@@ -1,0 +1,34 @@
+""""2. Aritmetik Operatörler
+
+Görev 1:
+Kullanıcıdan iki sayı alın. Bu sayılar üzerinde toplama (+), çıkarma (-), çarpma (*), bölme (/),
+tam bölme (//), mod alma (%), ve üs alma (**) işlemlerini yapıp sonuçları ekrana yazdırın.
+Kod Kısmı:
+a=15
+b=2.1
+toplam=a+b
+print("iki sayının toplamı: ",toplam)
+
+cıkartılmıshali=a-b
+print("Büyük sayının küçük sayıdan çıkartılmış hali : ",cıkartılmıshali)
+
+carpım=a*b
+print("iki sayının carpımı: ",carpım)
+
+bölüm=a/b
+print("Büyük sayının küçük sayıya bölünmüs hali: ",bölüm)
+
+tambölüm=a//b
+print("Büyük sayının küçük sayıya tam bölünmüs hali: ",tambölüm)
+
+mod=a%b
+print("Büyük sayının küçük sayıya göre mod alınmıs hali: ",mod)
+
+üst=a**b
+print("Büyük sayının üstünün akınmış hali: ",üst)
+
+
+Görev 2:
+Bir dairenin alanını hesaplayın. Kullanıcıdan yarıçapı alın ve formülü π * r² kullanarak sonucu yazdırın (π = 3.14).""""
+Kod Kısmı:
+
