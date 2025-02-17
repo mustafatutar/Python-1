@@ -1,0 +1,27 @@
+#Kullanıcıdan bir metin girmesini isteyin. Bu metni:
+
+#Tüm harfleri büyük yapın,
+print("Metin giriniz")
+metin = input("Bir metin giriniz: ")
+upperText = metin.upper()
+print("Metinin büyütülmüş hali:", upperText)
+
+#Başındaki ve sonundaki boşlukları silin,
+notemplateText = metin.replace(" ", "")
+print("Boşluksuz metnin hali: " , notemplateText)
+
+#"a" harflerini "e" ile değiştirin,
+degişmişText=metin.replace("u","o")
+print("Metnin değiştirilmiş hali:",degişmişText)
+
+#Boşluklara göre split edip kelimeleri liste halinde yazdırın.
+
+
+
+#Görev 2:
+#"Python programlama dili" metnini ters çevirip ekrana yazdırın. Ardından replace() metoduyla "programlama" yerine "kodlama" yazın.
+text=("Python ile Programlama")
+reversedtext = text[::-1]
+print("Metnin ters çevrilmiş hali:",reversedtext)
+changedtext=text.replace("Kodlama","Python")
+print("Metnin degişmiş hali:",changedtext)
