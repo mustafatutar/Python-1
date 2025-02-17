@@ -1,0 +1,20 @@
+""""Görev 1:
+meyveler = ["elma", "armut", "çilek", "kiraz"] listesi veriliyor. Kullanıcıdan bir meyve ismi alıp listede olup olmadığını in operatörüyle kontrol edin.
+#Kod Kısmı"""
+
+
+"""Görev 2:
+parola = "PyThOn123" değişkeni oluşturun. Kullanıcıdan bir karakter girmesini isteyin. Bu karakter parolada yoksa (not in) "Parolada bu karakter yok" yazdırın."""
+#Kod Kısmı
+meyveler = ["elma", "armut", "çilek", "kiraz"]
+meyveismi=input("Bir meyve seciniz: ")
+print(meyveismi in meyveler)
+
+parola = "PyThOn123"
+kontrol_karakteri =input("Bir kontrol karakteri giriniz: ")
+
+if kontrol_karakteri not in parola:
+    print("Parolada bu karakter yok")
+else:
+    print("Parolada bu karakter var")
+
