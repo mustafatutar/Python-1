@@ -1,0 +1,21 @@
+"""----ÖDEV 1----
+Aşağıdaki değişkenleri oluşturun ve ekrana yazdırın:
+Görev 1:
+isim: Adınız (string)
+yas: Yaşınız (integer)
+boy: Boyunuz (float)
+ogrenci_mi: Öğrenci olup olmadığınız (boolean).
+
+Kod kısmı
+isim="Mustafa Tutar"
+yas=22
+boy=1.80
+ogrenci_mi=True
+
+Görev 2:
+Kullanıcıdan dogum_yili bilgisini alıp, 2025 - dogum_yili formülüyle yaşını hesaplayıp ekrana yazdırın."""
+
+from datetime import datetime
+dogum_yılı=int(input("Dogum yılınız giriniz: "))
+yas = datetime.now().year-dogum_yılı
+print(yas)
