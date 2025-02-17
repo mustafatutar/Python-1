@@ -1,0 +1,23 @@
+""""Başlangıç değeri 10 olan bir sayi değişkeni oluşturun. Sırasıyla aşağıdaki işlemleri atama operatörleriyle (+=, -=, *=, /=) uygulayın:
+
+5 ekle
+
+3 çıkar
+
+2 ile çarp
+
+4'e böl​​​​​​​
+#Kod Kısmı:
+a=10
+a+=5
+a-=3
+a*=2
+a/=4
+print(a)
+metin="Python"
+metin+=" Programlama"
+print(metin)
+
+Görev 2:
+metin = "Python" değişkeni oluşturun. += operatörüyle bu metnin sonuna "  Programlama" ekleyip yeni metni yazdırın.
+""""
